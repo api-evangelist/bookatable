@@ -1,8 +1,26 @@
 aid: bookatable
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bookatable.png
 name: bookatable
-description: bookatable is a company surfaced as a portfolio company of balderton-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Bookatable was a European online restaurant reservation platform (bookatable.co.uk /
+  bookatable.com). It was acquired by Michelin and later sold into TripAdvisor's TheFork, after which
+  the Bookatable brand was retired and its booking service merged into TheFork. As of this enrichment
+  pass the domains no longer operate independently — bookatable.co.uk and bookatable.com both redirect
+  to TheFork (thefork.co.uk / thefork.com), and there is no surviving Bookatable developer portal, API,
+  documentation, or package surface. This profile is retained only as a portfolio lead of
+  balderton-capital; the live API surface, if any, lives under thefork.
+x-lifecycle-status: defunct-merged
+x-successor: thefork
 url: https://raw.githubusercontent.com/api-evangelist/bookatable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,7 +30,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 apis: []
@@ -24,3 +42,8 @@ maintainers:
 common:
 - type: Website
   url: https://www.bookatable.co.uk/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
