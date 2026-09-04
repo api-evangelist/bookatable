@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.bookatable.co.uk/', status: 301, note: 'declared website redirects to https://www.thefork.co.uk/#bat_dmn_redirect — a different registrable domain (bookatable.co.uk -> thefork.co.uk), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bookatable.png
 name: bookatable
 description: Bookatable was a European online restaurant reservation platform (bookatable.co.uk /
