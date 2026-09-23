@@ -1,0 +1,21 @@
+# Front Door AI Index — bookatable — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: bookatable
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.bookatable.co.uk
+  final_host: www.thefork.co.uk
+  ownership: own
+  owner: bookatable
+  shares_host_with: null
+  inherited_from: null
+  verdict: unmeasured
+  score: null
+  host_score: null
+  density: null
+  words: null
+  tiers: null
+  ambiguous: null
+  top_terms: null
