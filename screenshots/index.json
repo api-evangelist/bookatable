@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "bookatable",
+    "captured_at": "2026-10-11T183619",
+    "source_url": "https://www.bookatable.co.uk/",
+    "source_type": "Website",
+    "file": "bookatable-2026-10-11T183619.png",
+    "bytes": 43699,
+    "capture": "playwright-local"
+  }
+]
